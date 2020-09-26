@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC0B512D251CC79000544C9B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0B512C251CC79000544C9B /* DetailViewController.swift */; };
 		DC5F7A822512A1F8009730D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F7A812512A1F8009730D2 /* AppDelegate.swift */; };
 		DC5F7A842512A1F8009730D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F7A832512A1F8009730D2 /* ViewController.swift */; };
 		DC5F7A872512A1F8009730D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5F7A852512A1F8009730D2 /* Main.storyboard */; };
 		DC5F7A892512A203009730D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC5F7A882512A203009730D2 /* Assets.xcassets */; };
 		DC5F7A8C2512A203009730D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5F7A8A2512A203009730D2 /* LaunchScreen.storyboard */; };
+		DCDF70D1251C0E480067EAC8 /* ProdutoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF70D0251C0E480067EAC8 /* ProdutoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC0B512C251CC79000544C9B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		DC5F7A7E2512A1F8009730D2 /* TrabalhoIOS-ArthurSena-RafaelBatista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TrabalhoIOS-ArthurSena-RafaelBatista.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC5F7A812512A1F8009730D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC5F7A832512A1F8009730D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		DC5F7A882512A203009730D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC5F7A8B2512A203009730D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC5F7A8D2512A203009730D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCDF70D0251C0E480067EAC8 /* ProdutoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdutoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				DC5F7A882512A203009730D2 /* Assets.xcassets */,
 				DC5F7A8A2512A203009730D2 /* LaunchScreen.storyboard */,
 				DC5F7A8D2512A203009730D2 /* Info.plist */,
+				DCDF70D0251C0E480067EAC8 /* ProdutoCell.swift */,
+				DC0B512C251CC79000544C9B /* DetailViewController.swift */,
 			);
 			path = "TrabalhoIOS-ArthurSena-RafaelBatista";
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCDF70D1251C0E480067EAC8 /* ProdutoCell.swift in Sources */,
 				DC5F7A842512A1F8009730D2 /* ViewController.swift in Sources */,
 				DC5F7A822512A1F8009730D2 /* AppDelegate.swift in Sources */,
+				DC0B512D251CC79000544C9B /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
